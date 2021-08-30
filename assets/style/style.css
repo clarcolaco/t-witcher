@@ -1,8 +1,19 @@
-header {
-    display: flexbox;
-    align-items: center;
-}
-
-.nav {
-    padding: 15px;
-}
+    body {
+        display: flex;
+    }
+    
+    header {
+        display: flexbox;
+        align-items: center;
+        margin-left: 15px;
+        padding: auto;
+    }
+    
+    nav {
+        padding: 40px;
+    }
+    
+    main {
+        margin-top: 20px;
+        margin-left: 250px;
+    }
