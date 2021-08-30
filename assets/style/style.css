@@ -7,22 +7,25 @@
     header {
         align-items: center;
         margin-left: 6px;
-        margin-top: 15px;
-        height: 100%;
+        margin-top: 0px;
+        height: 1200px;
         padding-bottom: 60px;
-        width: 50px;
+        width: 60px;
         padding-left: 8px;
+        padding-top: 12px;
         justify-content: flex-start;
-        background-color: #f5f5f5;
+        border-right: 4px solid #f5f5f5;
     }
     
     main {
-        flex-basis: 70%;
+        flex-basis: 83%;
+        align-items: center;
         margin-top: 20px;
-        margin-left: 40px;
-        width: 100%;
-        font-size: 12pt;
+        margin-left: 0px;
+        width: 1300px;
+        font-size: 10pt;
         height: 800px;
+        padding-left: 14px;
     }
     
     nav {
@@ -35,6 +38,42 @@
     }
     
     a:hover {
-        background-color: aliceblue;
-        border-radius: 10%;
+        border-bottom: 5px solid #2bc4ff;
+    }
+    
+    section {
+        display: inline-flex;
+        text-align: justify;
+    }
+    
+    button {
+        background-color: #2bc4ff;
+        width: 80px;
+        padding: 2px;
+    }
+    
+    #titulo {
+        display: auto;
+    }
+    
+    #formulariopost {
+        align-items: center;
+        display: auto;
+    }
+    
+    @media only screen and (max-device-width: 1000px) {
+        main {
+            width: 1000px;
+        }
+    }
+    
+    @media only screen and (max-device-width: 100px) {
+        main {
+            width: 300px;
+            height: 100px;
+            ;
+        }
+        nav {
+            display: inline-table;
+        }
     }
